@@ -1,0 +1,412 @@
+{
+	"entry_exit_partial_emg_set_0000" : 	{
+		"model" : 		{
+			"filter_preset" : 6,
+			"label_collection" : "entry_exit",
+			"hhmm" : 			{
+				"em_maxsteps" : 0,
+				"em_percentchg" : 0.01,
+				"em_minsteps" : 10,
+				"likelihoodwindow" : 1,
+				"algorithm" : "hierarchical",
+				"regularization_absolute" : 0.001,
+				"regularization_relative" : 0.01,
+				"gaussians" : 1,
+				"states" : 10
+			}
+,
+			"emg" : 			{
+				"right" : 				{
+					"log_diffusion" : -20.0,
+					"log_jump" : -56.0
+				}
+,
+				"left" : 				{
+					"log_diffusion" : -20.0,
+					"log_jump" : -31.0
+				}
+
+			}
+,
+			"labels" : [ "enter_immediate", "enter_immediate", "enter_immediate", "enter_immediate", "enter_immediate", "enter_slowly", "enter_slowly", "enter_slowly", "enter_slowly", "enter_slowly", "exit_immediate", "exit_immediate", "exit_immediate", "exit_immediate", "exit_immediate", "exit_slowly", "exit_slowly", "exit_slowly", "exit_slowly", "exit_slowly" ]
+		}
+,
+		"results" : 		{
+			"enter_immediate" : [ "", 100, 100, 100, 100, 100 ],
+			"enter_slowly" : [ "", 98.333333333333329, 100, 100, 63.333333333333329, 20 ],
+			"exit_immediate" : [ "", 98.333333333333329, 100, 100, 100, 100 ],
+			"exit_slowly" : [ "", 98.333333333333329, 100, 100, 100, 100 ]
+		}
+
+	}
+,
+	"entry_exit_partial_emg_set_0001" : 	{
+		"model" : 		{
+			"filter_preset" : 7,
+			"label_collection" : "entry_exit",
+			"hhmm" : 			{
+				"em_maxsteps" : 0,
+				"em_percentchg" : 0.01,
+				"em_minsteps" : 10,
+				"likelihoodwindow" : 1,
+				"algorithm" : "hierarchical",
+				"regularization_absolute" : 0.001,
+				"regularization_relative" : 0.01,
+				"gaussians" : 1,
+				"states" : 10
+			}
+,
+			"emg" : 			{
+				"right" : 				{
+					"log_diffusion" : -20.0,
+					"log_jump" : -56.0
+				}
+,
+				"left" : 				{
+					"log_diffusion" : -20.0,
+					"log_jump" : -31.0
+				}
+
+			}
+,
+			"labels" : [ "enter_immediate", "enter_immediate", "enter_immediate", "enter_immediate", "enter_immediate", "enter_slowly", "enter_slowly", "enter_slowly", "enter_slowly", "enter_slowly", "exit_immediate", "exit_immediate", "exit_immediate", "exit_immediate", "exit_immediate", "exit_slowly", "exit_slowly", "exit_slowly", "exit_slowly", "exit_slowly" ]
+		}
+,
+		"results" : 		{
+			"enter_immediate" : [ "", 100, 100, 100, 100, 100 ],
+			"enter_slowly" : [ "", 98.333333333333329, 100, 100, 100, 100 ],
+			"exit_immediate" : [ "", 96.666666666666671, 100, 100, 100, 95 ],
+			"exit_slowly" : [ "", 98.333333333333329, 100, 100, 85, 80 ]
+		}
+
+	}
+,
+	"entry_exit_partial_emg_set_0002" : 	{
+		"model" : 		{
+			"filter_preset" : 8,
+			"label_collection" : "entry_exit",
+			"hhmm" : 			{
+				"em_maxsteps" : 0,
+				"em_percentchg" : 0.01,
+				"em_minsteps" : 10,
+				"likelihoodwindow" : 1,
+				"algorithm" : "hierarchical",
+				"regularization_absolute" : 0.001,
+				"regularization_relative" : 0.01,
+				"gaussians" : 1,
+				"states" : 10
+			}
+,
+			"emg" : 			{
+				"right" : 				{
+					"log_diffusion" : -20.0,
+					"log_jump" : -56.0
+				}
+,
+				"left" : 				{
+					"log_diffusion" : -20.0,
+					"log_jump" : -31.0
+				}
+
+			}
+,
+			"labels" : [ "enter_immediate", "enter_immediate", "enter_immediate", "enter_immediate", "enter_immediate", "enter_slowly", "enter_slowly", "enter_slowly", "enter_slowly", "enter_slowly", "exit_immediate", "exit_immediate", "exit_immediate", "exit_immediate", "exit_immediate", "exit_slowly", "exit_slowly", "exit_slowly", "exit_slowly", "exit_slowly" ]
+		}
+,
+		"results" : 		{
+			"enter_immediate" : [ "", 100, 100, 100, 100, 100 ],
+			"enter_slowly" : [ "", 98.333333333333329, 100, 100, 70, 71.666666666666671 ],
+			"exit_immediate" : [ "", 98.333333333333329, 100, 100, 100, 100 ],
+			"exit_slowly" : [ "", 98.333333333333329, 100, 100, 100, 100 ]
+		}
+
+	}
+,
+	"entry_exit_partial_emg_set_0003" : 	{
+		"model" : 		{
+			"filter_preset" : 9,
+			"label_collection" : "entry_exit",
+			"hhmm" : 			{
+				"em_maxsteps" : 0,
+				"em_percentchg" : 0.01,
+				"em_minsteps" : 10,
+				"likelihoodwindow" : 1,
+				"algorithm" : "hierarchical",
+				"regularization_absolute" : 0.001,
+				"regularization_relative" : 0.01,
+				"gaussians" : 1,
+				"states" : 10
+			}
+,
+			"emg" : 			{
+				"right" : 				{
+					"log_diffusion" : -20.0,
+					"log_jump" : -56.0
+				}
+,
+				"left" : 				{
+					"log_diffusion" : -20.0,
+					"log_jump" : -31.0
+				}
+
+			}
+,
+			"labels" : [ "enter_immediate", "enter_immediate", "enter_immediate", "enter_immediate", "enter_immediate", "enter_slowly", "enter_slowly", "enter_slowly", "enter_slowly", "enter_slowly", "exit_immediate", "exit_immediate", "exit_immediate", "exit_immediate", "exit_immediate", "exit_slowly", "exit_slowly", "exit_slowly", "exit_slowly", "exit_slowly" ]
+		}
+,
+		"results" : 		{
+			"enter_immediate" : [ "", 92.5, 100, 100, 100, 100 ],
+			"enter_slowly" : [ "", 73.333333333333329, 100, 100, 100, 100 ],
+			"exit_immediate" : [ "", 95, 100, 100, 100, 95 ],
+			"exit_slowly" : [ "", 98.333333333333329, 100, 100, 98.333333333333329, 80 ]
+		}
+
+	}
+,
+	"entry_exit_partial_emg_set_0004" : 	{
+		"model" : 		{
+			"filter_preset" : 10,
+			"label_collection" : "entry_exit",
+			"hhmm" : 			{
+				"em_maxsteps" : 0,
+				"em_percentchg" : 0.01,
+				"em_minsteps" : 10,
+				"likelihoodwindow" : 1,
+				"algorithm" : "hierarchical",
+				"regularization_absolute" : 0.001,
+				"regularization_relative" : 0.01,
+				"gaussians" : 1,
+				"states" : 10
+			}
+,
+			"emg" : 			{
+				"right" : 				{
+					"log_diffusion" : -20.0,
+					"log_jump" : -56.0
+				}
+,
+				"left" : 				{
+					"log_diffusion" : -20.0,
+					"log_jump" : -31.0
+				}
+
+			}
+,
+			"labels" : [ "enter_immediate", "enter_immediate", "enter_immediate", "enter_immediate", "enter_immediate", "enter_slowly", "enter_slowly", "enter_slowly", "enter_slowly", "enter_slowly", "exit_immediate", "exit_immediate", "exit_immediate", "exit_immediate", "exit_immediate", "exit_slowly", "exit_slowly", "exit_slowly", "exit_slowly", "exit_slowly" ]
+		}
+,
+		"results" : 		{
+			"enter_immediate" : [ "", 100, 100, 100, 100, 100 ],
+			"enter_slowly" : [ "", 98.333333333333329, 100, 100, 70, 68.333333333333329 ],
+			"exit_immediate" : [ "", 98.333333333333329, 100, 100, 100, 100 ],
+			"exit_slowly" : [ "", 98.333333333333329, 100, 100, 100, 100 ]
+		}
+
+	}
+,
+	"entry_exit_partial_emg_set_0005" : 	{
+		"model" : 		{
+			"filter_preset" : 11,
+			"label_collection" : "entry_exit",
+			"hhmm" : 			{
+				"em_maxsteps" : 0,
+				"em_percentchg" : 0.01,
+				"em_minsteps" : 10,
+				"likelihoodwindow" : 1,
+				"algorithm" : "hierarchical",
+				"regularization_absolute" : 0.001,
+				"regularization_relative" : 0.01,
+				"gaussians" : 1,
+				"states" : 10
+			}
+,
+			"emg" : 			{
+				"right" : 				{
+					"log_diffusion" : -20.0,
+					"log_jump" : -56.0
+				}
+,
+				"left" : 				{
+					"log_diffusion" : -20.0,
+					"log_jump" : -31.0
+				}
+
+			}
+,
+			"labels" : [ "enter_immediate", "enter_immediate", "enter_immediate", "enter_immediate", "enter_immediate", "enter_slowly", "enter_slowly", "enter_slowly", "enter_slowly", "enter_slowly", "exit_immediate", "exit_immediate", "exit_immediate", "exit_immediate", "exit_immediate", "exit_slowly", "exit_slowly", "exit_slowly", "exit_slowly", "exit_slowly" ]
+		}
+,
+		"results" : 		{
+			"enter_immediate" : [ "", 100, 100, 100, 100, 100 ],
+			"enter_slowly" : [ "", 98.333333333333329, 100, 100, 100, 100 ],
+			"exit_immediate" : [ "", 96.666666666666671, 100, 96.666666666666671, 100, 95 ],
+			"exit_slowly" : [ "", 98.333333333333329, 98.333333333333329, 100, 98.333333333333329, 80 ]
+		}
+
+	}
+,
+	"entry_exit_partial_emg_set_0006" : 	{
+		"model" : 		{
+			"filter_preset" : 12,
+			"label_collection" : "entry_exit",
+			"hhmm" : 			{
+				"em_maxsteps" : 0,
+				"em_percentchg" : 0.01,
+				"em_minsteps" : 10,
+				"likelihoodwindow" : 1,
+				"algorithm" : "hierarchical",
+				"regularization_absolute" : 0.001,
+				"regularization_relative" : 0.01,
+				"gaussians" : 1,
+				"states" : 10
+			}
+,
+			"emg" : 			{
+				"right" : 				{
+					"log_diffusion" : -20.0,
+					"log_jump" : -56.0
+				}
+,
+				"left" : 				{
+					"log_diffusion" : -20.0,
+					"log_jump" : -31.0
+				}
+
+			}
+,
+			"labels" : [ "enter_immediate", "enter_immediate", "enter_immediate", "enter_immediate", "enter_immediate", "enter_slowly", "enter_slowly", "enter_slowly", "enter_slowly", "enter_slowly", "exit_immediate", "exit_immediate", "exit_immediate", "exit_immediate", "exit_immediate", "exit_slowly", "exit_slowly", "exit_slowly", "exit_slowly", "exit_slowly" ]
+		}
+,
+		"results" : 		{
+			"enter_immediate" : [ "", 100, 100, 100, 100, 100 ],
+			"enter_slowly" : [ "", 81.666666666666671, 100, 100, 100, 100 ],
+			"exit_immediate" : [ "", 95, 100, 100, 100, 95 ],
+			"exit_slowly" : [ "", 98.333333333333329, 98.333333333333329, 100, 98.333333333333329, 80 ]
+		}
+
+	}
+,
+	"entry_exit_partial_emg_set_0007" : 	{
+		"model" : 		{
+			"filter_preset" : 13,
+			"label_collection" : "entry_exit",
+			"hhmm" : 			{
+				"em_maxsteps" : 0,
+				"em_percentchg" : 0.01,
+				"em_minsteps" : 10,
+				"likelihoodwindow" : 1,
+				"algorithm" : "hierarchical",
+				"regularization_absolute" : 0.001,
+				"regularization_relative" : 0.01,
+				"gaussians" : 1,
+				"states" : 10
+			}
+,
+			"emg" : 			{
+				"right" : 				{
+					"log_diffusion" : -20.0,
+					"log_jump" : -56.0
+				}
+,
+				"left" : 				{
+					"log_diffusion" : -20.0,
+					"log_jump" : -31.0
+				}
+
+			}
+,
+			"labels" : [ "enter_immediate", "enter_immediate", "enter_immediate", "enter_immediate", "enter_immediate", "enter_slowly", "enter_slowly", "enter_slowly", "enter_slowly", "enter_slowly", "exit_immediate", "exit_immediate", "exit_immediate", "exit_immediate", "exit_immediate", "exit_slowly", "exit_slowly", "exit_slowly", "exit_slowly", "exit_slowly" ]
+		}
+,
+		"results" : 		{
+			"enter_immediate" : [ "", 100, 100, 100, 100, 100 ],
+			"enter_slowly" : [ "", 98.333333333333329, 100, 100, 75, 56.666666666666664 ],
+			"exit_immediate" : [ "", 98.333333333333329, 100, 100, 100, 100 ],
+			"exit_slowly" : [ "", 98.333333333333329, 100, 100, 100, 100 ]
+		}
+
+	}
+,
+	"entry_exit_partial_emg_set_0008" : 	{
+		"model" : 		{
+			"filter_preset" : 14,
+			"label_collection" : "entry_exit",
+			"hhmm" : 			{
+				"em_maxsteps" : 0,
+				"em_percentchg" : 0.01,
+				"em_minsteps" : 10,
+				"likelihoodwindow" : 1,
+				"algorithm" : "hierarchical",
+				"regularization_absolute" : 0.001,
+				"regularization_relative" : 0.01,
+				"gaussians" : 1,
+				"states" : 10
+			}
+,
+			"emg" : 			{
+				"right" : 				{
+					"log_diffusion" : -20.0,
+					"log_jump" : -56.0
+				}
+,
+				"left" : 				{
+					"log_diffusion" : -20.0,
+					"log_jump" : -31.0
+				}
+
+			}
+,
+			"labels" : [ "enter_immediate", "enter_immediate", "enter_immediate", "enter_immediate", "enter_immediate", "enter_slowly", "enter_slowly", "enter_slowly", "enter_slowly", "enter_slowly", "exit_immediate", "exit_immediate", "exit_immediate", "exit_immediate", "exit_immediate", "exit_slowly", "exit_slowly", "exit_slowly", "exit_slowly", "exit_slowly" ]
+		}
+,
+		"results" : 		{
+			"enter_immediate" : [ "", 100, 100, 100, 100, 100 ],
+			"enter_slowly" : [ "", 70, 100, 100, 100, 100 ],
+			"exit_immediate" : [ "", 96.666666666666671, 100, 100, 100, 95 ],
+			"exit_slowly" : [ "", 63.333333333333329, 100, 100, 88.333333333333329, 80 ]
+		}
+
+	}
+,
+	"entry_exit_partial_emg_set_0009" : 	{
+		"model" : 		{
+			"filter_preset" : 15,
+			"label_collection" : "entry_exit",
+			"hhmm" : 			{
+				"em_maxsteps" : 0,
+				"em_percentchg" : 0.01,
+				"em_minsteps" : 10,
+				"likelihoodwindow" : 1,
+				"algorithm" : "hierarchical",
+				"regularization_absolute" : 0.001,
+				"regularization_relative" : 0.01,
+				"gaussians" : 1,
+				"states" : 10
+			}
+,
+			"emg" : 			{
+				"right" : 				{
+					"log_diffusion" : -20.0,
+					"log_jump" : -56.0
+				}
+,
+				"left" : 				{
+					"log_diffusion" : -20.0,
+					"log_jump" : -31.0
+				}
+
+			}
+,
+			"labels" : [ "enter_immediate", "enter_immediate", "enter_immediate", "enter_immediate", "enter_immediate", "enter_slowly", "enter_slowly", "enter_slowly", "enter_slowly", "enter_slowly", "exit_immediate", "exit_immediate", "exit_immediate", "exit_immediate", "exit_immediate", "exit_slowly", "exit_slowly", "exit_slowly", "exit_slowly", "exit_slowly" ]
+		}
+,
+		"results" : 		{
+			"enter_immediate" : [ "", 100, 100, 100, 100, 100 ],
+			"enter_slowly" : [ "", 98.333333333333329, 100, 100, 100, 100 ],
+			"exit_immediate" : [ "", 95, 100, 100, 100, 95 ],
+			"exit_slowly" : [ "", 63.333333333333329, 100, 100, 85, 80 ]
+		}
+
+	}
+
+}

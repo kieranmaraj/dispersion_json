@@ -1,0 +1,412 @@
+{
+	"content_partial_emg_default_0000" : 	{
+		"model" : 		{
+			"filter_preset" : 6,
+			"label_collection" : "content",
+			"hhmm" : 			{
+				"em_maxsteps" : 0,
+				"em_percentchg" : 0.01,
+				"em_minsteps" : 10,
+				"likelihoodwindow" : 1,
+				"algorithm" : "hierarchical",
+				"regularization_absolute" : 0.001,
+				"regularization_relative" : 0.01,
+				"gaussians" : 1,
+				"states" : 10
+			}
+,
+			"emg" : 			{
+				"right" : 				{
+					"log_diffusion" : -2.0,
+					"log_jump" : -10.0
+				}
+,
+				"left" : 				{
+					"log_diffusion" : -2.0,
+					"log_jump" : -10.0
+				}
+
+			}
+,
+			"labels" : [ "noise", "noise", "noise", "noise", "noise", "pointilism", "pointilism", "pointilism", "pointilism", "pointilism", "sustain", "sustain", "sustain", "sustain", "sustain", "tone", "tone", "tone", "tone", "tone" ]
+		}
+,
+		"results" : 		{
+			"noise" : [ "", 100, 100, 100, 100, 100 ],
+			"pointilism" : [ "", 98.333333333333329, 85, 73.333333333333329, 73.333333333333329, 93.333333333333329 ],
+			"sustain" : [ "", 98.333333333333329, 100, 100, 90, 100 ],
+			"tone" : [ "", 98.333333333333329, 100, 100, 96.666666666666671, 100 ]
+		}
+
+	}
+,
+	"content_partial_emg_default_0001" : 	{
+		"model" : 		{
+			"filter_preset" : 7,
+			"label_collection" : "content",
+			"hhmm" : 			{
+				"em_maxsteps" : 0,
+				"em_percentchg" : 0.01,
+				"em_minsteps" : 10,
+				"likelihoodwindow" : 1,
+				"algorithm" : "hierarchical",
+				"regularization_absolute" : 0.001,
+				"regularization_relative" : 0.01,
+				"gaussians" : 1,
+				"states" : 10
+			}
+,
+			"emg" : 			{
+				"right" : 				{
+					"log_diffusion" : -2.0,
+					"log_jump" : -10.0
+				}
+,
+				"left" : 				{
+					"log_diffusion" : -2.0,
+					"log_jump" : -10.0
+				}
+
+			}
+,
+			"labels" : [ "noise", "noise", "noise", "noise", "noise", "pointilism", "pointilism", "pointilism", "pointilism", "pointilism", "sustain", "sustain", "sustain", "sustain", "sustain", "tone", "tone", "tone", "tone", "tone" ]
+		}
+,
+		"results" : 		{
+			"noise" : [ "", 67.5, 100, 58.333333333333336, 100, 100 ],
+			"pointilism" : [ "", 88.333333333333329, 60, 86.666666666666671, 71.666666666666671, 100 ],
+			"sustain" : [ "", 70, 100, 91.666666666666657, 90, 96.666666666666671 ],
+			"tone" : [ "", 98.333333333333329, 98.333333333333329, 100, 100, 100 ]
+		}
+
+	}
+,
+	"content_partial_emg_default_0002" : 	{
+		"model" : 		{
+			"filter_preset" : 8,
+			"label_collection" : "content",
+			"hhmm" : 			{
+				"em_maxsteps" : 0,
+				"em_percentchg" : 0.01,
+				"em_minsteps" : 10,
+				"likelihoodwindow" : 1,
+				"algorithm" : "hierarchical",
+				"regularization_absolute" : 0.001,
+				"regularization_relative" : 0.01,
+				"gaussians" : 1,
+				"states" : 10
+			}
+,
+			"emg" : 			{
+				"right" : 				{
+					"log_diffusion" : -2.0,
+					"log_jump" : -10.0
+				}
+,
+				"left" : 				{
+					"log_diffusion" : -2.0,
+					"log_jump" : -10.0
+				}
+
+			}
+,
+			"labels" : [ "noise", "noise", "noise", "noise", "noise", "pointilism", "pointilism", "pointilism", "pointilism", "pointilism", "sustain", "sustain", "sustain", "sustain", "sustain", "tone", "tone", "tone", "tone", "tone" ]
+		}
+,
+		"results" : 		{
+			"noise" : [ "", 100, 100, 100, 100, 100 ],
+			"pointilism" : [ "", 98.333333333333329, 95, 66.666666666666657, 66.666666666666657, 100 ],
+			"sustain" : [ "", 98.333333333333329, 100, 100, 76.666666666666657, 100 ],
+			"tone" : [ "", 98.333333333333329, 100, 100, 91.666666666666657, 100 ]
+		}
+
+	}
+,
+	"content_partial_emg_default_0003" : 	{
+		"model" : 		{
+			"filter_preset" : 9,
+			"label_collection" : "content",
+			"hhmm" : 			{
+				"em_maxsteps" : 0,
+				"em_percentchg" : 0.01,
+				"em_minsteps" : 10,
+				"likelihoodwindow" : 1,
+				"algorithm" : "hierarchical",
+				"regularization_absolute" : 0.001,
+				"regularization_relative" : 0.01,
+				"gaussians" : 1,
+				"states" : 10
+			}
+,
+			"emg" : 			{
+				"right" : 				{
+					"log_diffusion" : -2.0,
+					"log_jump" : -10.0
+				}
+,
+				"left" : 				{
+					"log_diffusion" : -2.0,
+					"log_jump" : -10.0
+				}
+
+			}
+,
+			"labels" : [ "noise", "noise", "noise", "noise", "noise", "pointilism", "pointilism", "pointilism", "pointilism", "pointilism", "sustain", "sustain", "sustain", "sustain", "sustain", "tone", "tone", "tone", "tone", "tone" ]
+		}
+,
+		"results" : 		{
+			"noise" : [ "", 67.5, 100, 68.333333333333329, 100, 100 ],
+			"pointilism" : [ "", 80, 60, 86.666666666666671, 73.333333333333329, 100 ],
+			"sustain" : [ "", 98.333333333333329, 100, 98.333333333333329, 98.333333333333329, 98.333333333333329 ],
+			"tone" : [ "", 63.333333333333329, 88.333333333333329, 100, 100, 100 ]
+		}
+
+	}
+,
+	"content_partial_emg_default_0004" : 	{
+		"model" : 		{
+			"filter_preset" : 10,
+			"label_collection" : "content",
+			"hhmm" : 			{
+				"em_maxsteps" : 0,
+				"em_percentchg" : 0.01,
+				"em_minsteps" : 10,
+				"likelihoodwindow" : 1,
+				"algorithm" : "hierarchical",
+				"regularization_absolute" : 0.001,
+				"regularization_relative" : 0.01,
+				"gaussians" : 1,
+				"states" : 10
+			}
+,
+			"emg" : 			{
+				"right" : 				{
+					"log_diffusion" : -2.0,
+					"log_jump" : -10.0
+				}
+,
+				"left" : 				{
+					"log_diffusion" : -2.0,
+					"log_jump" : -10.0
+				}
+
+			}
+,
+			"labels" : [ "noise", "noise", "noise", "noise", "noise", "pointilism", "pointilism", "pointilism", "pointilism", "pointilism", "sustain", "sustain", "sustain", "sustain", "sustain", "tone", "tone", "tone", "tone", "tone" ]
+		}
+,
+		"results" : 		{
+			"noise" : [ "", 100, 100, 100, 100, 100 ],
+			"pointilism" : [ "", 98.333333333333329, 93.333333333333329, 81.666666666666671, 81.666666666666671, 81.666666666666671 ],
+			"sustain" : [ "", 98.333333333333329, 100, 100, 78.333333333333329, 100 ],
+			"tone" : [ "", 98.333333333333329, 98.333333333333329, 100, 98.333333333333329, 100 ]
+		}
+
+	}
+,
+	"content_partial_emg_default_0005" : 	{
+		"model" : 		{
+			"filter_preset" : 11,
+			"label_collection" : "content",
+			"hhmm" : 			{
+				"em_maxsteps" : 0,
+				"em_percentchg" : 0.01,
+				"em_minsteps" : 10,
+				"likelihoodwindow" : 1,
+				"algorithm" : "hierarchical",
+				"regularization_absolute" : 0.001,
+				"regularization_relative" : 0.01,
+				"gaussians" : 1,
+				"states" : 10
+			}
+,
+			"emg" : 			{
+				"right" : 				{
+					"log_diffusion" : -2.0,
+					"log_jump" : -10.0
+				}
+,
+				"left" : 				{
+					"log_diffusion" : -2.0,
+					"log_jump" : -10.0
+				}
+
+			}
+,
+			"labels" : [ "noise", "noise", "noise", "noise", "noise", "pointilism", "pointilism", "pointilism", "pointilism", "pointilism", "sustain", "sustain", "sustain", "sustain", "sustain", "tone", "tone", "tone", "tone", "tone" ]
+		}
+,
+		"results" : 		{
+			"noise" : [ "", 40, 100, 1.666666666666667, 100, 100 ],
+			"pointilism" : [ "", 98.333333333333329, 76.666666666666657, 78.333333333333329, 75, 100 ],
+			"sustain" : [ "", 96.666666666666671, 100, 96.666666666666671, 96.666666666666671, 96.666666666666671 ],
+			"tone" : [ "", 63.333333333333329, 88.333333333333329, 100, 100, 100 ]
+		}
+
+	}
+,
+	"content_partial_emg_default_0006" : 	{
+		"model" : 		{
+			"filter_preset" : 12,
+			"label_collection" : "content",
+			"hhmm" : 			{
+				"em_maxsteps" : 0,
+				"em_percentchg" : 0.01,
+				"em_minsteps" : 10,
+				"likelihoodwindow" : 1,
+				"algorithm" : "hierarchical",
+				"regularization_absolute" : 0.001,
+				"regularization_relative" : 0.01,
+				"gaussians" : 1,
+				"states" : 10
+			}
+,
+			"emg" : 			{
+				"right" : 				{
+					"log_diffusion" : -2.0,
+					"log_jump" : -10.0
+				}
+,
+				"left" : 				{
+					"log_diffusion" : -2.0,
+					"log_jump" : -10.0
+				}
+
+			}
+,
+			"labels" : [ "noise", "noise", "noise", "noise", "noise", "pointilism", "pointilism", "pointilism", "pointilism", "pointilism", "sustain", "sustain", "sustain", "sustain", "sustain", "tone", "tone", "tone", "tone", "tone" ]
+		}
+,
+		"results" : 		{
+			"noise" : [ "", 40, 100, 1.666666666666667, 100, 100 ],
+			"pointilism" : [ "", 95, 58.333333333333336, 76.666666666666657, 76.666666666666657, 100 ],
+			"sustain" : [ "", 70, 100, 90, 90, 95 ],
+			"tone" : [ "", 63.333333333333329, 83.333333333333343, 100, 100, 100 ]
+		}
+
+	}
+,
+	"content_partial_emg_default_0007" : 	{
+		"model" : 		{
+			"filter_preset" : 13,
+			"label_collection" : "content",
+			"hhmm" : 			{
+				"em_maxsteps" : 0,
+				"em_percentchg" : 0.01,
+				"em_minsteps" : 10,
+				"likelihoodwindow" : 1,
+				"algorithm" : "hierarchical",
+				"regularization_absolute" : 0.001,
+				"regularization_relative" : 0.01,
+				"gaussians" : 1,
+				"states" : 10
+			}
+,
+			"emg" : 			{
+				"right" : 				{
+					"log_diffusion" : -2.0,
+					"log_jump" : -10.0
+				}
+,
+				"left" : 				{
+					"log_diffusion" : -2.0,
+					"log_jump" : -10.0
+				}
+
+			}
+,
+			"labels" : [ "noise", "noise", "noise", "noise", "noise", "pointilism", "pointilism", "pointilism", "pointilism", "pointilism", "sustain", "sustain", "sustain", "sustain", "sustain", "tone", "tone", "tone", "tone", "tone" ]
+		}
+,
+		"results" : 		{
+			"noise" : [ "", 100, 93.333333333333329, 15, 100, 86.666666666666671 ],
+			"pointilism" : [ "", 98.333333333333329, 93.333333333333329, 90, 90, 100 ],
+			"sustain" : [ "", 98.333333333333329, 100, 38.333333333333329, 5, 71.666666666666671 ],
+			"tone" : [ "", 98.333333333333329, 50, 48.333333333333336, 51.666666666666657, 83.333333333333343 ]
+		}
+
+	}
+,
+	"content_partial_emg_default_0008" : 	{
+		"model" : 		{
+			"filter_preset" : 14,
+			"label_collection" : "content",
+			"hhmm" : 			{
+				"em_maxsteps" : 0,
+				"em_percentchg" : 0.01,
+				"em_minsteps" : 10,
+				"likelihoodwindow" : 1,
+				"algorithm" : "hierarchical",
+				"regularization_absolute" : 0.001,
+				"regularization_relative" : 0.01,
+				"gaussians" : 1,
+				"states" : 10
+			}
+,
+			"emg" : 			{
+				"right" : 				{
+					"log_diffusion" : -2.0,
+					"log_jump" : -10.0
+				}
+,
+				"left" : 				{
+					"log_diffusion" : -2.0,
+					"log_jump" : -10.0
+				}
+
+			}
+,
+			"labels" : [ "noise", "noise", "noise", "noise", "noise", "pointilism", "pointilism", "pointilism", "pointilism", "pointilism", "sustain", "sustain", "sustain", "sustain", "sustain", "tone", "tone", "tone", "tone", "tone" ]
+		}
+,
+		"results" : 		{
+			"noise" : [ "", 90, 100, 100, 100, 100 ],
+			"pointilism" : [ "", 56.666666666666664, 60, 88.333333333333329, 100, 100 ],
+			"sustain" : [ "", 58.333333333333336, 100, 100, 75, 90 ],
+			"tone" : [ "", 11.666666666666666, 100, 100, 100, 100 ]
+		}
+
+	}
+,
+	"content_partial_emg_default_0009" : 	{
+		"model" : 		{
+			"filter_preset" : 15,
+			"label_collection" : "content",
+			"hhmm" : 			{
+				"em_maxsteps" : 0,
+				"em_percentchg" : 0.01,
+				"em_minsteps" : 10,
+				"likelihoodwindow" : 1,
+				"algorithm" : "hierarchical",
+				"regularization_absolute" : 0.001,
+				"regularization_relative" : 0.01,
+				"gaussians" : 1,
+				"states" : 10
+			}
+,
+			"emg" : 			{
+				"right" : 				{
+					"log_diffusion" : -2.0,
+					"log_jump" : -10.0
+				}
+,
+				"left" : 				{
+					"log_diffusion" : -2.0,
+					"log_jump" : -10.0
+				}
+
+			}
+,
+			"labels" : [ "noise", "noise", "noise", "noise", "noise", "pointilism", "pointilism", "pointilism", "pointilism", "pointilism", "sustain", "sustain", "sustain", "sustain", "sustain", "tone", "tone", "tone", "tone", "tone" ]
+		}
+,
+		"results" : 		{
+			"noise" : [ "", 90, 100, 100, 80, 100 ],
+			"pointilism" : [ "", 46.666666666666664, 60, 88.333333333333329, 100, 100 ],
+			"sustain" : [ "", 60, 100, 100, 90, 95 ],
+			"tone" : [ "", 11.666666666666666, 100, 100, 100, 100 ]
+		}
+
+	}
+
+}
