@@ -1,0 +1,128 @@
+{
+	"groups_04_0001" : 	{
+		"model" : 		{
+			"filter_preset" : 16,
+			"label_collection" : "groups",
+			"svm" : 			{
+				"coef0" : 0.0,
+				"gamma" : 0.5,
+				"learning_rate" : 0.1,
+				"kernel_degree" : 3.0,
+				"kernel" : "linear"
+			}
+,
+			"emg" : 			{
+				"right" : 				{
+					"log_diffusion" : -2.0,
+					"log_jump" : -10.0
+				}
+,
+				"left" : 				{
+					"log_diffusion" : -2.0,
+					"log_jump" : -10.0
+				}
+
+			}
+,
+			"labels" : [ "group_1", "group_2", "group_3", "group_4", "group_5", "group_6-1", "group_6-2", "group_7-1", "group_7-2" ]
+		}
+,
+		"results" : 		{
+			"group_1" : 100.0,
+			"group_2" : 59.0,
+			"group_3" : 37.0,
+			"group_4" : 28.000000000000004,
+			"group_5" : 100.0,
+			"group_6-1" : 77.0,
+			"group_6-2" : 100.0,
+			"group_7-1" : 53.0,
+			"group_7-2" : 41.0
+		}
+
+	}
+,
+	"groups_04_0002" : 	{
+		"model" : 		{
+			"filter_preset" : 17,
+			"label_collection" : "groups",
+			"svm" : 			{
+				"coef0" : 0.0,
+				"gamma" : 0.5,
+				"learning_rate" : 0.1,
+				"kernel_degree" : 3.0,
+				"kernel" : "linear"
+			}
+,
+			"emg" : 			{
+				"right" : 				{
+					"log_diffusion" : -2.0,
+					"log_jump" : -10.0
+				}
+,
+				"left" : 				{
+					"log_diffusion" : -2.0,
+					"log_jump" : -10.0
+				}
+
+			}
+,
+			"labels" : [ "group_1", "group_2", "group_3", "group_4", "group_5", "group_6-1", "group_6-2", "group_7-1", "group_7-2" ]
+		}
+,
+		"results" : 		{
+			"group_1" : 15.625,
+			"group_2" : 6.25,
+			"group_3" : 6.25,
+			"group_4" : 6.25,
+			"group_5" : 23.4375,
+			"group_6-1" : 30.46875,
+			"group_6-2" : 60.15625,
+			"group_7-1" : 16.40625,
+			"group_7-2" : 9.375
+		}
+
+	}
+,
+	"groups_04_0003" : 	{
+		"model" : 		{
+			"filter_preset" : 18,
+			"label_collection" : "groups",
+			"svm" : 			{
+				"coef0" : 0.0,
+				"gamma" : 0.5,
+				"learning_rate" : 0.1,
+				"kernel_degree" : 3.0,
+				"kernel" : "linear"
+			}
+,
+			"emg" : 			{
+				"right" : 				{
+					"log_diffusion" : -2.0,
+					"log_jump" : -10.0
+				}
+,
+				"left" : 				{
+					"log_diffusion" : -2.0,
+					"log_jump" : -10.0
+				}
+
+			}
+,
+			"labels" : [ "group_1", "group_2", "group_3", "group_4", "group_5", "group_6-1", "group_6-2", "group_7-1", "group_7-2" ]
+		}
+,
+		"results" : 		{
+			"group_1" : 72.0,
+			"group_2" : 12.0,
+			"group_3" : 73.0,
+			"group_4" : 73.0,
+			"group_5" : 72.0,
+			"group_6-1" : 63.0,
+			"group_6-2" : 100.0,
+			"group_7-1" : 100.0,
+			"group_7-2" : 28.999999999999996
+		}
+
+	}
+
+}
