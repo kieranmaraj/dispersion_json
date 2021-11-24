@@ -124,5 +124,47 @@
 		}
 
 	}
+,
+	"groups_04_0004" : 	{
+		"model" : 		{
+			"filter_preset" : 1,
+			"label_collection" : "groups",
+			"svm" : 			{
+				"coef0" : 0.0,
+				"gamma" : 0.5,
+				"learning_rate" : 0.1,
+				"kernel_degree" : 3.0,
+				"kernel" : "linear"
+			}
+,
+			"emg" : 			{
+				"right" : 				{
+					"log_diffusion" : -2.0,
+					"log_jump" : -10.0
+				}
+,
+				"left" : 				{
+					"log_diffusion" : -2.0,
+					"log_jump" : -10.0
+				}
+
+			}
+,
+			"labels" : [ "group_1", "group_2", "group_3", "group_4", "group_5", "group_6-1", "group_6-2", "group_7-1", "group_7-2" ]
+		}
+,
+		"results" : 		{
+			"group_1" : 3.0,
+			"group_2" : 85.0,
+			"group_3" : 100.0,
+			"group_4" : 100.0,
+			"group_5" : 16.0,
+			"group_6-1" : 39.0,
+			"group_6-2" : 61.0,
+			"group_7-1" : 96.0,
+			"group_7-2" : 98.0
+		}
+
+	}
 
 }
